@@ -1,0 +1,12 @@
+.myinput {
+    width: 330px;
+    background: #fff;
+    color: #000000;
+    letter-spacing: 1.2px;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    font-size: 1.3rem;
+}

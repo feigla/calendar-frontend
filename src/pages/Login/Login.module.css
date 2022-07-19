@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 110px);
+}
+.form__login {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.form__login button {
+    align-self: flex-end;
+}
+.register {
+    display: flex;
+    justify-content: space-between;
+}
+.register_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_form a {
+    cursor: pointer;
+    color: blue;
+    font-size: 1.1rem;
+    border-bottom: 1px solid blue;
+    transition: all 200ms linear;
+}
+.register_form a:hover {
+    border-bottom: none
+}

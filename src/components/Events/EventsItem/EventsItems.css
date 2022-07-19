@@ -1,0 +1,22 @@
+.event-enter {
+    opacity: 0;
+}
+.event-enter-active {
+    opacity: 1;
+    transition: all 500ms linear;
+}
+.event-exit {
+    opacity: 1;
+}
+.event-exit-active {
+    opacity: 0;
+    transition: all 500ms linear;
+}
+.event {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 1.111rem;
+    color: white;
+}

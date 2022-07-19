@@ -1,0 +1,21 @@
+.container {
+    max-width: 1150px;
+    padding: 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+#root {
+    font-family: Arial sans-serif;
+    color: black;
+    background-color: #f5f6fa;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 100vh;
+}
+header {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.82);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: white;
+}

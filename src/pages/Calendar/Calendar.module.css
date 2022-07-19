@@ -1,0 +1,23 @@
+.calendar__days {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(30px, 1fr));
+    grid-template-rows: repeat(5, 1fr);
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+}
+.calendar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.week {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(30px, 1fr));
+    font-size: 1.7rem;
+}
+.week__day {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
